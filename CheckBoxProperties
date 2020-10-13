@@ -1,0 +1,4 @@
+function myFunction() {
+  var x = document.getElementById("myBtn").hasAttribute("onclick");
+  document.getElementById("demo").innerHTML = x;
+}
