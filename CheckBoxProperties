@@ -2,3 +2,12 @@ function myFunction() {
   var x = document.getElementById("myBtn").hasAttribute("onclick");
   document.getElementById("demo").innerHTML = x;
 }
+
+//Disable Css
+
+.isDisabled {
+  color: currentColor;
+  cursor: not-allowed;
+  opacity: 0.5;
+  text-decoration: none;
+}
